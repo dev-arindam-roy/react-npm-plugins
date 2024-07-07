@@ -1,6 +1,18 @@
 # React NPM Plugings / Packages
 Useful Reach NP Plugins
 
+```js
+npm install gh-pages --save-dev
+"homepage": "https://gitname.github.io/react-gh-pages",
+
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
+
+npm run deploy
+```
+
 ## Bootstrap
 ```js
 npm i bootstrap react-bootstrap
